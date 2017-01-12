@@ -3,3 +3,4 @@
 *.txt
 config.simc
 aethys_spreadsheet_parser.py
+/src/tmp_simc_files

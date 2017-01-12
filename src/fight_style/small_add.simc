@@ -1,0 +1,7 @@
+$(adds_count)=3
+$(adds_first)=45
+$(adds_cd)=45
+$(adds_duration)=10
+input=$(fight_style_path)raidevents_adds.simc
+
+$(fight_type)=small_add

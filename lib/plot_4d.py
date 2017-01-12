@@ -279,7 +279,7 @@ def runSimcProfiles(inputParams):
         myfile.write(data)
 
     #Change the config.simc file
-    with open("../config.simc", "r") as myfile:
+    with open("D:\games\SIMCGIT\combinX\examples\config.simc", "r") as myfile:
         data = myfile.read()
     data = re.sub(r"(\$\(class\)=).+",r"\g<1>" + classs,data)
     data = re.sub(r"(target_error=).+",r"\g<1>" + str(targetError),data)
